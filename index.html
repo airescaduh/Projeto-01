@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BalleCoffee</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <meta
       name="description"
       content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!"
@@ -12,125 +13,127 @@
   <body>
     <header>
       <nav>
-        <span>BalleCoffee</span>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Receitas</a></li>
-          <li><a href="">Novidades</a></li>
-          <li><a href="">Melhor Avaliadas</a></li>
+        <span class="logo">ballecoffee</span>
+        <ul class="menu">
+          <li><a>Home</a></li>
+          <li><a>Receitas</a></li>
+          <li><a>Novidades</a></li>
+          <li><a>Melhor Avaliadas</a></li>
         </ul>
-        <a href="">Github</a>
+        <a class="github">Github</a>
       </nav>
     </header>
 
     <main>
-      <section>
-        <header>
-          <span>Novidade</span>
-          <h1>Encontre a receita perfeita!</h1>
-          <hr />
-          <h2>
-            Explore dezenas de variações da bebida favorita entre os devs ao
-            redor mundo!
-          </h2>
-        </header>
+      <div class="principal">
+        <section class="hero">
+          <header class="hero-conteudo">
+            <span class="destaque marrom">Novidade</span>
+            <h1>Encontre a receita perfeita!</h1>
+            <hr />
+            <h2 class="hero-subtituto">
+              Explore dezenas de variações da bebida favorita entre os devs ao
+              redor mundo!
+            </h2>
+          </header>
 
-        <div>
-          <figure><img src="assets/img-1.png" alt="" /></figure>
-          <figure><img src="assets/img-2.png" alt="" /></figure>
-          <figure><img src="assets/img-3.png" alt="" /></figure>
-          <figure><img src="assets/img-4.png" alt="" /></figure>
-          <figure><img src="assets/img-5.png" alt="" /></figure>
-          <figure><img src="assets/img-6.png" alt="" /></figure>
-          <figure><img src="assets/img-7.png" alt="" /></figure>
-          <figure><img src="assets/img-8.png" alt="" /></figure>
-          <figure><img src="assets/img-9.png" alt="" /></figure>
-          <figure><img src="assets/img-10.png" alt="" /></figure>
-          <figure><img src="assets/img-11.png" alt="" /></figure>
-          <figure><img src="assets/img-12.png" alt="" /></figure>
-        </div>
-      </section>
-
-      <section>
-        <button>
-          <img src="assets/rolagem-bt/chevrons-down.svg" alt="" />
-        </button>
-      </section>
-
-      <section>
-        <header>
-          <span>Receitas</span>
-          <h2>Confira as últimas receitas</h2>
-          <p>Dê uma olhada nas receitas mais amadas!</p>
-        </header>
-
-        <div>
-          <div>
-            <head>
-              <div>
-                <span>Em Alta 🔥</span>
-                <h3>Capuccino ☕</h3>
-              </div>
-              <p>Extraordinário · 4/4</p>
-            </head>
-
-            <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-
-            <div>
-              <img src="assets/avatares/Rafaelli.png" alt="" />
-              <span>Rafaella Ballerini</span>
-            </div>
+          <div class="hero-imagens-container">
+            <figure><img src="assets/img-1.png" alt="" /></figure>
+            <figure><img src="assets/img-2.png" alt="" /></figure>
+            <figure><img src="assets/img-3.png" alt="" /></figure>
+            <figure><img src="assets/img-4.png" alt="" /></figure>
+            <figure><img src="assets/img-5.png" alt="" /></figure>
+            <figure><img src="assets/img-6.png" alt="" /></figure>
+            <figure><img src="assets/img-7.png" alt="" /></figure>
+            <figure><img src="assets/img-8.png" alt="" /></figure>
+            <figure><img src="assets/img-9.png" alt="" /></figure>
+            <figure><img src="assets/img-10.png" alt="" /></figure>
+            <figure><img src="assets/img-11.png" alt="" /></figure>
+            <figure><img src="assets/img-12.png" alt="" /></figure>
           </div>
+        </section>
+
+        <section>
+          <button>
+            <img src="assets/rolagem-bt/chevrons-down.svg" alt="" />
+          </button>
+        </section>
+
+        <section>
+          <header>
+            <span>Receitas</span>
+            <h2>Confira as últimas receitas</h2>
+            <p>Dê uma olhada nas receitas mais amadas!</p>
+          </header>
 
           <div>
-            <head>
-              <div>
-                <span>Novo</span>
-                <h3>Capuccino ☕</h3>
-              </div>
-            </head>
+            <div>
+              <head>
+                <div>
+                  <span>Em Alta 🔥</span>
+                  <h3>Capuccino ☕</h3>
+                </div>
+                <p>Extraordinário · 4/4</p>
+              </head>
 
-            <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+              <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+
+              <div>
+                <img src="assets/avatares/Rafaelli.png" alt="" />
+                <span>Rafaella Ballerini</span>
+              </div>
+            </div>
 
             <div>
-              <img src="assets/avatares/alex-silva.png" alt="" />
-              <span>Alex Silva</span>
-            </div>
-          </div>
+              <head>
+                <div>
+                  <span>Novo</span>
+                  <h3>Capuccino ☕</h3>
+                </div>
+              </head>
 
-          <div>
-            <head>
+              <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+
               <div>
-                <span>Novo</span>
-                <h3>Expresso</h3>
+                <img src="assets/avatares/alex-silva.png" alt="" />
+                <span>Alex Silva</span>
               </div>
-            </head>
-
-            <p>Para quem gosta de um café amargo.</p>
+            </div>
 
             <div>
-              <img src="assets/avatares/Ana-Katarina.png" alt="" />
-              <span>Ana Katarina</span>
-            </div>
-          </div>
+              <head>
+                <div>
+                  <span>Novo</span>
+                  <h3>Expresso</h3>
+                </div>
+              </head>
 
-          <div>
-            <head>
+              <p>Para quem gosta de um café amargo.</p>
+
               <div>
-                <span>Novo</span>
-                <h3>Capuccino ☕</h3>
+                <img src="assets/avatares/Ana-Katarina.png" alt="" />
+                <span>Ana Katarina</span>
               </div>
-            </head>
-
-            <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+            </div>
 
             <div>
-              <img src="assets/avatares/Susana-Lima.png" alt="" />
-              <span>Susana Lima</span>
+              <head>
+                <div>
+                  <span>Novo</span>
+                  <h3>Capuccino ☕</h3>
+                </div>
+              </head>
+
+              <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+
+              <div>
+                <img src="assets/avatares/Susana-Lima.png" alt="" />
+                <span>Susana Lima</span>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <footer>
